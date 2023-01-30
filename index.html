@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cherry+Swash&family=PT+Mono&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/5d736d18fd.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="city">Los Angeles</h1>
+      <span class="temp" id="temp">48</span><span class="units">°C</span>
+      <form class="search-form" id="search-form">
+        <input
+          type="search"
+          placeholder="Type a city.."
+          autofocus="on"
+          autocomplete="off"
+          id="city-input"
+        />
+        <input type="submit" value="Search" />
+      </form>
+      <br />
+      <ul>
+        <li id="date"></li>
+      </ul>
+      <div class="row">
+        <div class="col">Monday 59°</div>
+        <div class="col">Tuesday 62°</div>
+        <div class="col">Wednesday 62°</div>
+        <div class="col">Thursday 61°</div>
+        <div class="col">Friday 62°</div>
+      </div>
+    </div>
+    <i class="fa-solid fa-cloud cloud-icon"></i>
+    <i class="fa-solid fa-cloud-rain rain-cloud-one"></i>
+    <i class="fa-solid fa-cloud-rain rain-cloud-two"></i>
+    <i class="fa-solid fa-cloud-rain rain-cloud-three"></i>
+    <i class="fa-solid fa-cloud cloud-icon-two"></i>
+  </body>
+  <script src="src/index.js"></script>
+</html>

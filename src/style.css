@@ -1,0 +1,77 @@
+body {
+  font-family: "Cherry Swash", cursive;
+  background-color: #fffbf8;
+}
+
+h1 {
+  font-weight: 900;
+  color: #6b705c;
+  margin: 50px 0 0;
+}
+
+.temp {
+  color: #cb997e;
+  margin: 10px;
+  font-size: 25px;
+}
+
+li {
+  list-style-type: none;
+  color: #cb997e;
+  font-size: 20px;
+}
+
+.search-bar {
+  position: center;
+}
+
+.row {
+  font-weight: 900;
+  font-size: 20px;
+  color: #b7b7a4;
+}
+
+.cloud-icon {
+  position: relative;
+  margin: 10px;
+  left: 330px;
+  font-size: 25px;
+  color: #ddbea9;
+}
+
+.rain-cloud-one {
+  position: relative;
+  margin: 0;
+  left: 560px;
+  font-size: 25px;
+  color: #ddbea9;
+}
+
+.rain-cloud-two {
+  position: relative;
+  margin: 0;
+  left: 800px;
+  font-size: 25px;
+  color: #ddbea9;
+}
+
+.rain-cloud-three {
+  position: relative;
+  margin: 0;
+  left: 1025px;
+  font-size: 25px;
+  color: #ddbea9;
+}
+
+.cloud-icon-two {
+  position: relative;
+  margin: 10px;
+  left: 1240px;
+  font-size: 25px;
+  color: #ddbea9;
+}
+
+.units {
+  color: #cb997e;
+  margin: 0px;
+}
